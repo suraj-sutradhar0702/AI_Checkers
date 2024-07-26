@@ -1,0 +1,14 @@
+import pygame
+
+WIDTH, HEIGHT = 800, 800
+ROWS, COLS = 8, 8
+NO_OF_TOKENS = ROWS // 2 * 3
+SQUARE_SIZE = WIDTH // COLS
+BOARD_DARK_COLOR = (88, 38, 13)
+BOARD_LIGHT_COLOR = (252, 223, 179)
+AI_COLOR = (0, 0, 0)
+PLAYER_COLOR = (255, 255, 255)
+OUTLINE_COLOR_AI = (137, 137, 137)
+OUTLINE_COLOR_PLAYER = (0, 0, 0)
+VALID_MOVES_COLOR = (49, 134, 218)
+CROWN = pygame.transform.scale(pygame.image.load("resources/crown.png"), (40, 40))
